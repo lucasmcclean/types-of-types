@@ -11,4 +11,20 @@
 		</div>
 		<p class="-mt-4 place-self-end pe-2 text-sm italic">. . . and type systems</p>
 	</Slide>
+	<Slide class="h-full place-content-center place-items-center">
+		<p>R = {'{'}x | x ∉ x{'}'}</p>
+	</Slide>
+	<Slide class="h-full place-content-center place-items-center">
+		<figure class="m-0">
+			<blockquote class="text-start" cite="urn:isbn:0415495475">
+				<p>
+					You can define the barber as 'one who shaves all those, and those only, who do not shave
+					themselves.' The question is, does the barber shave himself?
+				</p>
+			</blockquote>
+			<figcaption class="mt-8 text-end">
+				— Bertrand Russell, <cite>The Philosophy of Logical Atomism</cite>
+			</figcaption>
+		</figure>
+	</Slide>
 </Presentation>
