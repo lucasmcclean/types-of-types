@@ -4,7 +4,6 @@
 	let userCode: Code;
 	let greetCode: Code;
 	let newUserCode: Code;
-	let newGreetCode: Code;
 
 	let genericsCode: Code;
 </script>
@@ -153,14 +152,14 @@
       `}
 			options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
 		/>
-	</Slide>
 
-	<Slide class="h-full place-content-center place-items-center">
-		<Code
-			bind:this={newGreetCode}
-			lang="rust"
-			theme="poimandres"
-			code={`
+		<Action
+			do={() => newUserCode.update`
+        enum User {
+          Anonymous,
+          LoggedIn { name: String, email: String },
+        }
+
         fn greet(user: &User) {
           match user {
             User::Anonymous => println!("Hello, guest"),
@@ -168,7 +167,12 @@
           }
         }
       `}
-			options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
+			undo={() => newUserCode.update`
+        enum User {
+          Anonymous,
+          LoggedIn { name: String, email: String },
+        }
+      `}
 		/>
 	</Slide>
 
