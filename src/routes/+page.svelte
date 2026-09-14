@@ -8,7 +8,7 @@
 	let genericsCode: Code;
 </script>
 
-<Presentation options={{ history: true, transition: 'slide', controls: true, progress: true }}>
+<Presentation options={{ history: true, transition: 'slide', controls: false, progress: true }}>
 	<Slide class="h-full place-content-center place-items-center">
 		<div class="flex flex-row items-baseline space-x-8 tracking-widest">
 			<p class="text-8xl">Types</p>
