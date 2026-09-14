@@ -171,4 +171,55 @@
 			options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
 		/>
 	</Slide>
+
+	<Slide class="h-full place-content-center place-items-center">
+		<h2>Parametric Polymorphism</h2>
+		<p class="place-self-end italic">Generics</p>
+	</Slide>
+
+	<Slide class="h-full place-content-center place-items-center">
+		<Code
+			bind:this={genericsCode}
+			lang="rust"
+			theme="poimandres"
+			code={`
+        fn first<T>(something: &Vec<T>) -> Option<&T> {
+          something.first()
+        }
+      `}
+			options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
+		/>
+
+		<Action do={() => genericsCode.select`T`} undo={() => genericsCode.selectLines`*`} />
+		<Action do={() => genericsCode.selectLines`*`} undo={() => genericsCode.select`T`} />
+
+		<Action
+			do={() => genericsCode.update`
+          fn first<T: Copy>(something: &Vec<T>) -> Option<T> {
+            something.first().copied()
+          }
+        `}
+			undo={() => genericsCode.update`
+          fn first<T>(something: &Vec<T>) -> Option<&T> {
+            something.first()
+          }
+        `}
+		/>
+
+		<Action
+			do={() => {
+				genericsCode.select`T: Copy`;
+				genericsCode.selectAdd`.copied()`;
+			}}
+			undo={() => genericsCode.selectLines`*`}
+		/>
+
+		<Action
+			do={() => genericsCode.selectLines`*`}
+			undo={() => {
+				genericsCode.select`T: Copy`;
+				genericsCode.selectAdd`.copied()`;
+			}}
+		/>
+	</Slide>
 </Presentation>
