@@ -13,3 +13,7 @@ export { default as AdtSumExample } from './AdtSumExample.svelte';
 
 export { default as GenericsTitle } from './GenericsTitle.svelte';
 export { default as GenericsExample } from './GenericsExample.svelte';
+
+export { default as SubstructuralTitle } from './SubstructuralTitle.svelte';
+export { default as SubstructuralTable } from './SubstructuralTable.svelte';
+export { default as SubstructuralExample } from './SubstructuralExample.svelte';

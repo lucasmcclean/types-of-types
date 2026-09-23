@@ -13,7 +13,10 @@
 		AdtProductUsage,
 		AdtSumExample,
 		GenericsTitle,
-		GenericsExample
+		GenericsExample,
+		SubstructuralTitle,
+		SubstructuralTable,
+		SubstructuralExample
 	} from '$lib/slides';
 </script>
 
@@ -33,6 +36,10 @@
 
 	<GenericsTitle />
 	<GenericsExample />
+
+	<SubstructuralTitle />
+	<SubstructuralTable />
+	<SubstructuralExample />
 
 	<Citations />
 </Presentation>
