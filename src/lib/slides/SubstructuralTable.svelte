@@ -4,7 +4,7 @@
 
 <Slide class="h-full place-content-center place-items-center text-3xl">
 	<table
-		class="whitespace-nowrap [&_tbody_td]:border-b-0 [&_tbody_tr:nth-child(odd)]:bg-white/5 [&_td:nth-child(5)]:text-right [&_td:nth-child(n+2):nth-child(-n+4)]:text-center [&_th:nth-child(5)]:text-right [&_th:nth-child(n+2):nth-child(-n+4)]:text-center"
+		class="whitespace-nowrap [&_tbody_td]:border-b-0! [&_tbody_tr:nth-child(odd)]:bg-white/5 [&_td:nth-child(5)]:text-right [&_td:nth-child(n+2):nth-child(-n+4)]:text-center [&_th:nth-child(5)]:text-right [&_th:nth-child(n+2):nth-child(-n+4)]:text-center [&_thead_th]:border-b-0!"
 	>
 		<thead>
 			<tr>
@@ -16,35 +16,35 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
+			<tr class="fragment">
 				<td>Normal</td>
 				<td>&check;</td>
 				<td>&check;</td>
 				<td>&check;</td>
 				<td>Arbitrarily</td>
 			</tr>
-			<tr>
+			<tr class="fragment">
 				<td>Linear</td>
 				<td>&check;</td>
 				<td>&cross;</td>
 				<td>&cross;</td>
 				<td>Exactly once</td>
 			</tr>
-			<tr>
+			<tr class="fragment">
 				<td>Affine</td>
 				<td>&check;</td>
 				<td>&check;</td>
 				<td>&cross;</td>
 				<td>At most once</td>
 			</tr>
-			<tr>
+			<tr class="fragment">
 				<td>Relevant</td>
 				<td>&check;</td>
 				<td>&cross;</td>
 				<td>&check;</td>
 				<td>At least once</td>
 			</tr>
-			<tr>
+			<tr class="fragment">
 				<td>Ordered</td>
 				<td>&cross;</td>
 				<td>&cross;</td>

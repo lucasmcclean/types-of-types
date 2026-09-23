@@ -13,4 +13,14 @@
 			https://federicocarrone.com
 		</a>
 	</p>
+	<p class="mt-8 text-left -indent-8 text-2xl text-neutral-800 dark:text-neutral-200">
+		Substructural type system. (n.d.). In
+		<i>Wikipedia</i>. Retrieved September 23, 2026, from
+		<a
+			href="https://en.wikipedia.org/wiki/Substructural_type_system"
+			class="break-all text-blue-400 underline hover:text-blue-500"
+		>
+			https://en.wikipedia.org/wiki/Substructural_type_system
+		</a>
+	</p>
 </Slide>

@@ -8,12 +8,26 @@
 	<Code
 		lang="rust"
 		theme={THEME}
-		code={`
-        let s = String::from("example");
+		codes={[
+			`let s = String::from("Affine");`,
+			`
+          let s = String::from("Affine");
 
-        consume(s);
-        consume(s); // Error: value already used
-      `}
+          consume(s);
+        `,
+			`
+          let s = String::from("Affine");
+
+          consume(s);
+          consume(s); // Error: value already used
+        `,
+			`
+          let s = String::from("Affine(ish)");
+
+          consume(s);
+          consume(s); // Error: value already used
+        `
+		]}
 		options={{ lineNumbers: true, containerStyle: false }}
 	/>
 </Slide>
