@@ -11,6 +11,9 @@ export { default as AdtProductIssue } from './AdtProductIssue.svelte';
 export { default as AdtProductUsage } from './AdtProductUsage.svelte';
 export { default as AdtSumExample } from './AdtSumExample.svelte';
 
+export { default as RefinementTitle } from './RefinementTitle.svelte';
+export { default as RefinementExample } from './RefinementExample.svelte';
+
 export { default as GenericsTitle } from './GenericsTitle.svelte';
 export { default as GenericsExample } from './GenericsExample.svelte';
 

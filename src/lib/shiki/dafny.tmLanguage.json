@@ -1,0 +1,52 @@
+{
+	"name": "dafny",
+	"scopeName": "source.dafny",
+	"fileTypes": ["dfy"],
+	"patterns": [
+		{ "include": "#comments" },
+		{ "include": "#strings" },
+		{ "include": "#keywords" },
+		{ "include": "#types" },
+		{ "include": "#numbers" },
+		{ "include": "#operators" },
+		{ "include": "#identifiers" },
+		{ "include": "#whitespace" }
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{ "name": "comment.line.double-slash.dafny", "match": "//.*$" },
+				{ "name": "comment.block.dafny", "begin": "/\\*", "end": "\\*/" }
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.dafny",
+			"begin": "\"",
+			"end": "\"|$",
+			"patterns": [{ "name": "constant.character.escape.dafny", "match": "\\\\." }]
+		},
+		"keywords": {
+			"name": "keyword.control.dafny",
+			"match": "\\b(?:abstract|assert|assume|by|calc|case|class|const|constructor|datatype|decreases|else|ensures|export|false|forall|function|ghost|if|import|lemma|method|module|modifies|new|newtype|native|old|opened|oracle|predicate|print|provides|reads|requires|return|returns|static|then|trait|true|type|twostate|unchanged|var|while|witness|yield)\\b"
+		},
+		"types": {
+			"name": "storage.type.dafny",
+			"match": "\\b(?:ORDINAL|array|bool|char|int|iset|map|multiset|nat|object|real|seq|set|string)\\b"
+		},
+		"numbers": {
+			"name": "constant.numeric.dafny",
+			"match": "\\b(?:0[xX][0-9a-fA-F_]+|0[bB][01_]+|0[oO][0-7_]+|[0-9][0-9_]*(?:\\.[0-9_]+)?(?:[eE][+-]?[0-9_]+)?)\\b"
+		},
+		"operators": {
+			"name": "keyword.operator.dafny",
+			"match": "\\|\\||&&|<=|>=|==|!=|<=|>=|=>|->|:=|::|\\.\\.|\\.|\\+|-|\\*|/|%|<|>|=|!|&|\\||\\^|~|\\?"
+		},
+		"identifiers": {
+			"name": "variable.other.dafny",
+			"match": "\\b[A-Za-z_][A-Za-z0-9_]*\\b"
+		},
+		"whitespace": {
+			"match": "\\s+"
+		}
+	}
+}

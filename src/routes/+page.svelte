@@ -12,6 +12,8 @@
 		AdtProductIssue,
 		AdtProductUsage,
 		AdtSumExample,
+		RefinementTitle,
+		RefinementExample,
 		GenericsTitle,
 		GenericsExample,
 		SubstructuralTitle,
@@ -37,6 +39,9 @@
 	<AdtProductIssue />
 	<AdtProductUsage />
 	<AdtSumExample />
+
+	<RefinementTitle />
+	<RefinementExample />
 
 	<GenericsTitle />
 	<GenericsExample />
