@@ -17,3 +17,8 @@ export { default as GenericsExample } from './GenericsExample.svelte';
 export { default as SubstructuralTitle } from './SubstructuralTitle.svelte';
 export { default as SubstructuralTable } from './SubstructuralTable.svelte';
 export { default as SubstructuralExample } from './SubstructuralExample.svelte';
+
+export { default as EffectsTitle } from './EffectsTitle.svelte';
+export { default as EffectsRaise } from './EffectsRaise.svelte';
+export { default as EffectsAsyncIssue } from './EffectsAsyncIssue.svelte';
+export { default as EffectsAsync } from './EffectsAsync.svelte';

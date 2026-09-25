@@ -16,7 +16,11 @@
 		GenericsExample,
 		SubstructuralTitle,
 		SubstructuralTable,
-		SubstructuralExample
+		SubstructuralExample,
+		EffectsTitle,
+		EffectsRaise,
+		EffectsAsyncIssue,
+		EffectsAsync
 	} from '$lib/slides';
 </script>
 
@@ -40,6 +44,11 @@
 	<SubstructuralTitle />
 	<SubstructuralTable />
 	<SubstructuralExample />
+
+	<EffectsTitle />
+	<EffectsRaise />
+	<EffectsAsyncIssue />
+	<EffectsAsync />
 
 	<Citations />
 </Presentation>
