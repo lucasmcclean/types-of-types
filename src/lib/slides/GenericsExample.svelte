@@ -12,42 +12,31 @@
 		lang="rust"
 		theme={THEME}
 		code={`
-        fn first<T>(something: &Vec<T>) -> Option<&T> {
-          something.first()
+        fn head<T>(xs: &[T]) -> Option<T> {
+          xs.first().cloned()
         }
       `}
 		options={CODE_OPTIONS}
 	/>
 
-	<Action do={() => code.select`T`} undo={() => code.selectLines`*`} />
-	<Action do={() => code.selectLines`*`} undo={() => code.select`T`} />
-
 	<Action
 		do={() => code.update`
-          fn first<T: Copy>(something: &Vec<T>) -> Option<T> {
-            something.first().copied()
-          }
-        `}
+        fn head<T: Clone>(xs: &[T]) -> Option<T> {
+          xs.first().cloned()
+        }
+      `}
 		undo={() => code.update`
-          fn first<T>(something: &Vec<T>) -> Option<&T> {
-            something.first()
-          }
-        `}
+        fn head<T>(xs: &[T]) -> Option<T> {
+          xs.first().cloned()
+        }
+      `}
 	/>
 
 	<Action
 		do={() => {
-			code.select`T: Copy`;
-			code.selectAdd`.copied()`;
+			code.select`T: Clone`;
+			code.selectAdd`.cloned()`;
 		}}
 		undo={() => code.selectLines`*`}
-	/>
-
-	<Action
-		do={() => code.selectLines`*`}
-		undo={() => {
-			code.select`T: Copy`;
-			code.selectAdd`.copied()`;
-		}}
 	/>
 </Slide>
