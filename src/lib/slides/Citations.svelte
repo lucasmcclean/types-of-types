@@ -33,4 +33,14 @@
 			https://koka-lang.github.io/koka/doc/book.html#sec-handlers
 		</a>
 	</p>
+	<p class="mt-8 text-left -indent-8 text-2xl text-neutral-800 dark:text-neutral-200">
+		Effects and handlers. (n.d.). In
+		<i>Programming Flix</i>. Retrieved September 28, 2026, from
+		<a
+			href="https://doc.flix.dev/effects-and-handlers.html"
+			class="break-all text-blue-400 underline hover:text-blue-500"
+		>
+			https://doc.flix.dev/effects-and-handlers.html
+		</a>
+	</p>
 </Slide>

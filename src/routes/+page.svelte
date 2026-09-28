@@ -20,7 +20,8 @@
 		SubstructuralTable,
 		SubstructuralExample,
 		EffectsTitle,
-		EffectsRaise,
+		EffectsExcept,
+		EffectsResume,
 		EffectsAsyncIssue,
 		EffectsAsync
 	} from '$lib/slides';
@@ -51,7 +52,8 @@
 	<SubstructuralExample />
 
 	<EffectsTitle />
-	<EffectsRaise />
+	<EffectsExcept />
+	<EffectsResume />
 	<EffectsAsyncIssue />
 	<EffectsAsync />
 
