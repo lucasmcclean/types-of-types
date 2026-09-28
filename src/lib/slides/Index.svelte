@@ -30,7 +30,7 @@
 </Slide>
 
 <style>
-	.index-item {
+	:global(section.present) .index-item {
 		animation: index-in 0.5s var(--ease) backwards;
 		animation-delay: calc(var(--index) * 0.07s + 0.1s);
 	}

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Presentation, Slide } from '@animotion/core';
+	import { Slide } from '@animotion/core';
 </script>
 
 <Slide class="h-full place-content-center place-items-center">

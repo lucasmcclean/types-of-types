@@ -27,7 +27,7 @@
           if user.isAnonymous {
             fmt.Println("Hello, guest")
           } else {
-            fmt.Printf("Hello, %s", user.name)
+            fmt.Printf("Hello, %s\\n", *user.name)
           }
         }
       `}
@@ -48,7 +48,7 @@
           } else if user.name == nil || user.email == nil {
             panic("Uh oh, someone should've ensured these had values")
           } else {
-            fmt.Printf("Hello, %s", user.name)
+            fmt.Printf("Hello, %s\\n", *user.name)
           }
         }
       `}
@@ -57,7 +57,7 @@
           if user.isAnonymous {
             fmt.Println("Hello, guest")
           } else {
-            fmt.Printf("Hello, %s", user.name)
+            fmt.Printf("Hello, %s\\n", *user.name)
           }
         }
       `}
