@@ -12,6 +12,8 @@
 		AdtProductIssue,
 		AdtProductUsage,
 		AdtSumExample,
+		AdtPaymentExample,
+		AdtOptionResult,
 		RefinementTitle,
 		RefinementExample,
 		GenericsTitle,
@@ -40,6 +42,8 @@
 	<AdtProductIssue />
 	<AdtProductUsage />
 	<AdtSumExample />
+	<AdtPaymentExample />
+	<AdtOptionResult />
 
 	<RefinementTitle />
 	<RefinementExample />

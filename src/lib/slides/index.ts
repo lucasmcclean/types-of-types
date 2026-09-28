@@ -10,6 +10,8 @@ export { default as AdtProductExample } from './AdtProductExample.svelte';
 export { default as AdtProductIssue } from './AdtProductIssue.svelte';
 export { default as AdtProductUsage } from './AdtProductUsage.svelte';
 export { default as AdtSumExample } from './AdtSumExample.svelte';
+export { default as AdtPaymentExample } from './AdtPaymentExample.svelte';
+export { default as AdtOptionResult } from './AdtOptionResult.svelte';
 
 export { default as RefinementTitle } from './RefinementTitle.svelte';
 export { default as RefinementExample } from './RefinementExample.svelte';
