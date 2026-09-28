@@ -2,7 +2,7 @@
 	import { Slide, Code } from '@animotion/core';
 
 	import { registerFlix } from '$lib/shiki/flix';
-	import { THEME } from './constants';
+	import { CODE_OPTIONS, THEME } from './constants';
 
 	const flix = registerFlix();
 </script>
@@ -53,6 +53,6 @@
               }
         `
 		]}
-		options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
+		options={CODE_OPTIONS}
 	/>
 </Slide>

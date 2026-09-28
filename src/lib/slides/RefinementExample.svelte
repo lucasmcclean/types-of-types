@@ -2,7 +2,7 @@
 	import { Slide, Code, Action } from '@animotion/core';
 
 	import { registerDafny } from '$lib/shiki/dafny';
-	import { THEME } from './constants';
+	import { CODE_OPTIONS, THEME } from './constants';
 
 	let code: Code;
 	const dafny = registerDafny();
@@ -17,7 +17,7 @@
         method OpenSocket(port: int) {
         }
       `}
-		options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
+		options={CODE_OPTIONS}
 	/>
 
 	<Action

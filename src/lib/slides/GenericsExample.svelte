@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Slide, Code, Action } from '@animotion/core';
 
-	import { THEME } from './constants';
+	import { CODE_OPTIONS, THEME } from './constants';
 
 	let code: Code;
 </script>
@@ -16,7 +16,7 @@
           something.first()
         }
       `}
-		options={{ duration: 700, stagger: 0.3, lineNumbers: true, containerStyle: false }}
+		options={CODE_OPTIONS}
 	/>
 
 	<Action do={() => code.select`T`} undo={() => code.selectLines`*`} />

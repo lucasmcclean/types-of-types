@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Slide, Code } from '@animotion/core';
 
-	import { THEME } from './constants';
+	import { CODE_OPTIONS, THEME } from './constants';
 </script>
 
 <Slide class="h-full place-content-center place-items-center">
@@ -28,6 +28,6 @@
           consume(s); // Error: value already used
         `
 		]}
-		options={{ lineNumbers: true, containerStyle: false }}
+		options={CODE_OPTIONS}
 	/>
 </Slide>
