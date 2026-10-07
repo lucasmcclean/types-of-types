@@ -24,7 +24,5 @@ export { default as SubstructuralTable } from './SubstructuralTable.svelte';
 export { default as SubstructuralExample } from './SubstructuralExample.svelte';
 
 export { default as EffectsTitle } from './EffectsTitle.svelte';
-export { default as EffectsExcept } from './EffectsExcept.svelte';
-export { default as EffectsResume } from './EffectsResume.svelte';
-export { default as EffectsAsyncIssue } from './EffectsAsyncIssue.svelte';
-export { default as EffectsAsync } from './EffectsAsync.svelte';
+export { default as EffectsProblem } from './EffectsProblem.svelte';
+export { default as EffectsSolution } from './EffectsSolution.svelte';

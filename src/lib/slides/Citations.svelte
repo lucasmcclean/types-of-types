@@ -34,16 +34,6 @@
 		</a>
 	</p>
 	<p class="mt-8 text-left -indent-8 text-2xl text-neutral-200">
-		Effect handlers. (n.d.). In
-		<i>The Koka Programming Language</i>.
-		<a
-			href="https://koka-lang.github.io/koka/doc/book.html#sec-handlers"
-			class="break-all text-blue-400 underline hover:text-blue-500"
-		>
-			https://koka-lang.github.io/koka/doc/book.html#sec-handlers
-		</a>
-	</p>
-	<p class="mt-8 text-left -indent-8 text-2xl text-neutral-200">
 		Effects and handlers. (n.d.). In
 		<i>Programming Flix</i>.
 		<a

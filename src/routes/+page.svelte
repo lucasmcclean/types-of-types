@@ -22,10 +22,8 @@
 		SubstructuralTable,
 		SubstructuralExample,
 		EffectsTitle,
-		EffectsExcept,
-		EffectsResume,
-		EffectsAsyncIssue,
-		EffectsAsync
+		EffectsProblem,
+		EffectsSolution
 	} from '$lib/slides';
 </script>
 
@@ -56,10 +54,8 @@
 	<SubstructuralExample />
 
 	<EffectsTitle />
-	<EffectsExcept />
-	<EffectsResume />
-	<EffectsAsyncIssue />
-	<EffectsAsync />
+	<EffectsProblem />
+	<EffectsSolution />
 
 	<Citations />
 </Presentation>
