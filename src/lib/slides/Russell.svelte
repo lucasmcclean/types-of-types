@@ -4,7 +4,7 @@
 
 <Slide class="h-full place-content-center place-items-center">
 	<figure class="m-0">
-		<blockquote class="text-start" cite="urn:isbn:0415495475">
+		<blockquote class="text-start" cite="urn:isbn:0415474612">
 			<p>
 				You can define the barber as 'one who shaves all those, and those only, who do not shave
 				themselves.' The question is, does the barber shave himself?
