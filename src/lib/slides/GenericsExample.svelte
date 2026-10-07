@@ -12,8 +12,8 @@
 		lang="rust"
 		theme={THEME}
 		code={`
-        fn head<T>(xs: &[T]) -> Option<T> {
-          xs.first().cloned()
+        fn head<T>(xs: &[T]) -> Option<&T> {
+          xs.first()
         }
       `}
 		options={CODE_OPTIONS}
